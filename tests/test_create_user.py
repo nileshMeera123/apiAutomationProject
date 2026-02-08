@@ -1,6 +1,11 @@
 
 def test_create_user(api_client):
 
+    """
+    test create user
+    :param api_client:
+    :return:
+    """
 
     payload = {
         "name": "Nilesh",
